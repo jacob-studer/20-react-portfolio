@@ -1,0 +1,190 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  font-size: 30px;
+  /* z-index: 1; */
+}
+
+.center-div {
+  display: flex;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headshot-img {
+  max-height: 200px;
+  min-width: 200px;
+  /* padding: 20px; */
+  border-radius: 100%;
+  border: 10px solid rgba(46, 49, 49, 0.5);
+  margin: 20px;
+}
+
+div.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+
+.links a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  /* text-shadow: 0 0 3px grey, 0 0 5px rgba(46, 49, 49, 0.5); */
+  /* text-align: right; */
+}
+
+.link-margin-large {
+  margin-left: 10px;
+}
+
+/* Link Hover effect */
+.btn{
+  display: block;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn::after{
+  content: "";
+  background: white;
+  mix-blend-mode: exclusion;
+  width: calc(100% + 6px);
+  height: 0;
+  position: absolute;
+  bottom: -4px;
+  left: -5px;
+  transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.btn:hover::after{
+  height: calc(100% + 8px)
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  /* position: fixed; */
+  z-index: 1;
+}
+
+.nav-name {
+  color: white;
+  margin-top: 10px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-top: 12px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  
+}
+
+
+/* ----- Portfolio Page specific styling ----- */
+.horizontal-center-1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.horizontal-center-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-link div{
+  padding: 2%;
+}
+
+.text-dec-none {
+  text-decoration: none;
+  color: white;
+}
+
+/* text over image positioning */
+.padding-container {
+  padding: 2%;
+}
+
+.container {
+  position: relative;
+  margin: 2%;
+  }
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+.text-block p {
+  font-size: 14px;
+}
+
+/* ----- About me Page specific styling ----- */
+.about-me-center-div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-me-text {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+div.headshot {
+  display: flex;
+  justify-content: center;
+}
+
+/* Contact page styling */
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-me-main p {
+  color: white;
+  text-align: center;
+}
+
+.contact-me-main a {
+  text-decoration: underline;
+  color: white;
+}
