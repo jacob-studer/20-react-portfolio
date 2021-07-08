@@ -1,10 +1,10 @@
-import LandingPage from './components/LandingPage/LandingPage'
+import FirstView from './components/FirstView/FirstView'
 import './App.css';
 
 function App() {
   return (
     <div>
-      <LandingPage />
+      <FirstView />
     </div>
   );
 }

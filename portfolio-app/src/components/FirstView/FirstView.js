@@ -1,5 +1,12 @@
 import React from 'react';
-import AboutMe from '../AboutMe/AboutMe'
+import AboutMe from '../AboutMe/AboutMe';
+
+// function renderView(event) {
+//     if (this.value === 'About me' {
+//         render
+//     }
+    
+// }
 
 
 export default function FirstView() {
