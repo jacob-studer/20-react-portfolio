@@ -14,11 +14,11 @@ export default function Nav() {
             <nav className="navbar">
                 <h2 className="nav-name">Jacob Studer</h2>
                 <ul className="nav-list">
-                    <li><Link href="../../index.html" className="nav-links btn">Home</Link></li>
-                    <li><Link href="aboutme.html" className="nav-links btn">About Me</Link></li>
-                    <li><Link href="portfolio.html" className="nav-links btn">Portfolio</Link></li>
-                    <li><Link href="contact.html" className="nav-links btn">Contact</Link></li>
-                    <li><Link href="resume.html" className="nav-links btn">Resume</Link></li>
+                    <li><Link to="/" className="nav-links btn">Home</Link></li>
+                    <li><Link to="/aboutme" className="nav-links btn">About Me</Link></li>
+                    <li><Link to="/portfolio" className="nav-links btn">Portfolio</Link></li>
+                    <li><Link to="/contact" className="nav-links btn">Contact</Link></li>
+                    <li><Link to="/resume" className="nav-links btn">Resume</Link></li>
                 </ul>
             </nav>
         </header>
