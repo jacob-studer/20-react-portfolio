@@ -1,18 +1,22 @@
 import React from 'react';
-import Nav from './Nav'
+import Nav from '../../components/Nav/Nav'
+
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Resume() {
     return (
+        <Router>
         <main>
 
             <Nav />
 
         <section className="center-div">
-            <a href="https://docs.google.com/document/d/1Dki8zUckteNBCX-MOlkQUYCQpIML5pYZ/">
+            <Link to="https://docs.google.com/document/d/1Dki8zUckteNBCX-MOlkQUYCQpIML5pYZ/">
                 <img src="../images/resume.png" alt="resume" width="600px" height="800px"></img>
-            </a>
+            </Link>
         </section>
 
         </main>
+        </Router>
     );
 }
