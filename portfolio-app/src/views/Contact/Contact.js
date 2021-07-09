@@ -1,14 +1,17 @@
 import React from 'react';
-// import Nav from ''
+import Nav from '../../components/Nav/Nav'
 
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Contact() {
     return (
     <Router>
+
+<Nav />
+
     <main>
 
-            {/* <Nav /> */}
+            
 
         <section className="contact-me-main">
             <h1>Hello, heres how you can reach out!</h1>

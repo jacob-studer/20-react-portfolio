@@ -8,12 +8,10 @@ export default function Portfolio() {
     return (
         <Router>
 
+    <Nav />
+
     <main>
         
-
-        <Nav />
-
-
             <div>
             <h1 className="portfolio-title">Portfolio</h1>
             </div>

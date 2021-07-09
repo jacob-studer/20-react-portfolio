@@ -1,11 +1,14 @@
 import React from 'react';
-import Nav from '../../components/Nav/Nav'
+// import Nav from '../../components/Nav/Nav'
 
 export default function LandingPage() {
     return (
+
+        // <Nav />
+
         <main>
 
-        <Nav />
+        
 
             <section className="about-me-center-div">
                 <div className="headshot">
