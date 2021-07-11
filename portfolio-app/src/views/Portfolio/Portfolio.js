@@ -1,18 +1,41 @@
 import React from 'react';
 import Nav from '../../components/Nav/Nav'
+import ProjectCard from '../../components/ProjectCard/ProjectCard'
 
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 
 export default function Portfolio() {
+
+    const projects = [
+        {
+        title: 'Cocktail Generator App',
+        
+        }, 
+        {
+        title: 'Artist Search App',
+        }
+]
+
+
+
     return (
-        <Router>
+        
+        //all the values would be props, url prop, title prop, etc, 
+    
+    
+
+    <div>
 
     <Nav />
 
-    <main>
+    {projects.map(project=>{
+        return <ProjectCard title={project.title} />
+    })}
+
+    
         
-            <div>
+            {/* <div>
             <h1 className="portfolio-title">Portfolio</h1>
             </div>
 
@@ -48,10 +71,10 @@ export default function Portfolio() {
                 </div>
             </div>
 
-        </section>
+        </section> */}
 
         
-    </main>
-    </Router>
+    </div>
+    
     );
 }

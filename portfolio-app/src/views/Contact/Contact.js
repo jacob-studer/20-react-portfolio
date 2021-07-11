@@ -1,17 +1,18 @@
 import React from 'react';
 import Nav from '../../components/Nav/Nav'
 
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 export default function Contact() {
     return (
-    <Router>
+    
+//formspree.io
 
-<Nav />
 
-    <main>
+    <div>
 
-            
+    <Nav />
 
         <section className="contact-me-main">
             <h1>Hello, heres how you can reach out!</h1>
@@ -22,7 +23,8 @@ export default function Contact() {
             </div>
         </section>
 
-    </main>
-    </Router>
+    <ContactForm />
+
+    </div>
     );
 }

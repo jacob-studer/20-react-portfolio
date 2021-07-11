@@ -5,13 +5,13 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Resume() {
     return (
-        <Router>
-
-    <Nav />
-    
-        <main>
+        
 
     
+    
+        <div>
+
+        <Nav />
 
         <section className="center-div">
             <Link to="https://docs.google.com/document/d/1Dki8zUckteNBCX-MOlkQUYCQpIML5pYZ/">
@@ -19,7 +19,7 @@ export default function Resume() {
             </Link>
         </section>
 
-        </main>
-        </Router>
+        </div>
+        
     );
 }

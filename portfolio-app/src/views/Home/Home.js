@@ -1,24 +1,20 @@
-import AboutMe from '../AboutMe/AboutMe'
-import Portfolio from '../Portfolio/Portfolio'
-import Contact from '../Contact/Contact'
-import Resume from '../Resume/Resume'
+import React from "react";
 
-
-
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
-      <Router>
-        <main className="center-div">
+      
+      <div>
+        
 
         <div>
-            <h1 class="landing-page-header">Jacob Studer, Full Stack Web Developer</h1>
+            <h1 className="landing-page-header">Jacob Studer, Full Stack Web Developer</h1>
         </div>
   
   
         <div className="headshot">
-            <img src="images/headshot.jpg" alt="headshot" className="headshot-img"></img>
+            <img src={require('../../images/headshot.jpg').default} alt="headshot" className="headshot-img"></img>
         </div>
   
           
@@ -28,18 +24,9 @@ export default function Home() {
             <Link to='/contact' className="link-margin-small btn">Contact Me</Link>
             <Link to='/resume' className="link-margin-small btn">Resume</Link>
           </div>
-  
           
-          <Switch>
-          <Route path='/' component={Home} />
-          <Route path='/aboutme' component={AboutMe} />  
-          <Route path='/portfolio' component={Portfolio} />  
-          <Route path='/contact' component={Contact} />  
-          <Route path='/resume' component={Resume} />
-          </Switch>
+        </div>
           
-  
-          </main>
-      </Router>
+      
     );
   }

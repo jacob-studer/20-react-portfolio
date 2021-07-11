@@ -1,14 +1,14 @@
 import React from 'react';
-// import Nav from '../../components/Nav/Nav'
+import Nav from '../../components/Nav/Nav'
 
-export default function LandingPage() {
+export default function AboutMe() {
     return (
 
-        // <Nav />
-
-        <main>
-
         
+
+        <div>
+
+        <Nav />
 
             <section className="about-me-center-div">
                 <div className="headshot">
@@ -22,6 +22,6 @@ export default function LandingPage() {
                 </div>
             </section>
         
-        </main>
+        </div>
     );
 }
