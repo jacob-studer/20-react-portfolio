@@ -12,7 +12,7 @@ export default function AboutMe() {
 
             <section className="about-me-center-div">
                 <div className="headshot">
-                    <img src="../images/headshot.jpg" alt="headshot" className="headshot-img"></img>
+                    <img src={require('../../images/headshot.jpg').default} alt="headshot" className="headshot-img"></img>
                 </div>
 
                 <div className="links">
