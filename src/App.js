@@ -9,7 +9,7 @@ import Resume from './views/Resume/Resume'
 
 import './App.css';
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -17,11 +17,11 @@ function App() {
       
 
       <Switch>
-          <Route exact path='/20-react-portfolio/' component={Home} />
-          <Route path='/20-react-portfolio/aboutme' component={AboutMe} />  
-          <Route path='/20-react-portfolio/portfolio' component={Portfolio} />  
-          <Route path='/20-react-portfolio/contact' component={Contact} />  
-          <Route path='/20-react-portfolio/resume' component={Resume} />
+          <Route exact path='/' component={Home} />
+          <Route path='/aboutme' component={AboutMe} />  
+          <Route path='/portfolio' component={Portfolio} />  
+          <Route path='/contact' component={Contact} />  
+          <Route path='/resume' component={Resume} />
       </Switch>
 
   </Router>
