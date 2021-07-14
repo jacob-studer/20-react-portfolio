@@ -9,11 +9,11 @@ import Resume from './views/Resume/Resume'
 
 import './App.css';
 
-import { Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       
 
       <Switch>
