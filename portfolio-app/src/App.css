@@ -1,6 +1,6 @@
 body {
-  font-family: 'Noto Sans JP', sans-serif;
-  background-image: url('images/background.jpg');
+  font-family: "Noto Sans JP", sans-serif;
+  background-image: url("images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -23,6 +23,11 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+.landing-page-header {
+  margin-top: 15%;
+  z-index: 0;
+}
+
 .headshot-img {
   max-height: 200px;
   min-width: 200px;
@@ -39,30 +44,31 @@ div.links {
   margin: 20px;
 }
 
-.links a {
+.links {
   display: flex;
   flex-direction: column;
   text-decoration: none;
   color: white;
-  padding: 5px;
+  padding: 10px;
   font-size: 20px;
   /* text-shadow: 0 0 3px grey, 0 0 5px rgba(46, 49, 49, 0.5); */
   /* text-align: right; */
 }
 
-.link-margin-large {
+.link-margin-small {
   margin-left: 10px;
 }
 
 /* Link Hover effect */
-.btn{
+.btn {
   display: block;
   color: white;
   text-decoration: none;
   position: relative;
+  padding: 5px;
 }
 
-.btn::after{
+.btn::after {
   content: "";
   background: white;
   mix-blend-mode: exclusion;
@@ -71,11 +77,11 @@ div.links {
   position: absolute;
   bottom: -4px;
   left: -5px;
-  transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
-.btn:hover::after{
-  height: calc(100% + 8px)
+.btn:hover::after {
+  height: calc(100% + 8px);
 }
 
 /* navbar */
@@ -101,15 +107,18 @@ div.links {
   text-decoration: none;
   color: white;
   padding: 5px 15px 5px 15px;
-  
 }
-
 
 /* ----- Portfolio Page specific styling ----- */
 .horizontal-center-1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .horizontal-center-2 {
   display: flex;
@@ -117,7 +126,7 @@ div.links {
   flex-wrap: wrap;
 }
 
-.portfolio-link div{
+.portfolio-link div {
   padding: 2%;
 }
 
@@ -134,7 +143,7 @@ div.links {
 .container {
   position: relative;
   margin: 2%;
-  }
+}
 
 .text-block {
   position: absolute;
@@ -144,7 +153,7 @@ div.links {
   color: white;
   padding-left: 10px;
   padding-right: 10px;
-  }
+}
 
 .text-block p {
   font-size: 14px;
@@ -188,3 +197,5 @@ div.headshot {
   text-decoration: underline;
   color: white;
 }
+
+/* media query for portfolio text */
