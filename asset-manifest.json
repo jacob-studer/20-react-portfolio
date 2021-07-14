@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.1414e294.chunk.css",
+    "main.js": "/my-app/static/js/main.c64c0221.chunk.js",
+    "main.js.map": "/my-app/static/js/main.c64c0221.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.72e59807.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.72e59807.js.map",
+    "static/js/2.8f081797.chunk.js": "/my-app/static/js/2.8f081797.chunk.js",
+    "static/js/2.8f081797.chunk.js.map": "/my-app/static/js/2.8f081797.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "static/css/main.1414e294.chunk.css.map": "/my-app/static/css/main.1414e294.chunk.css.map",
+    "static/js/2.8f081797.chunk.js.LICENSE.txt": "/my-app/static/js/2.8f081797.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/my-app/static/media/background.6b08e6f2.jpg",
+    "static/media/concert.jpg": "/my-app/static/media/concert.0f499462.jpg",
+    "static/media/drink-thumb.jpg": "/my-app/static/media/drink-thumb.40283a46.jpg",
+    "static/media/forest-thumb.jpg": "/my-app/static/media/forest-thumb.76f4d5df.jpg",
+    "static/media/headshot.jpg": "/my-app/static/media/headshot.76cdc231.jpg",
+    "static/media/weather-thumb.jpg": "/my-app/static/media/weather-thumb.77bddb47.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72e59807.js",
+    "static/js/2.8f081797.chunk.js",
+    "static/css/main.1414e294.chunk.css",
+    "static/js/main.c64c0221.chunk.js"
+  ]
+}
