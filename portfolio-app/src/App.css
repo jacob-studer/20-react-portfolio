@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  color: white;
 }
 
 h1 {
@@ -24,7 +25,7 @@ h1 {
 }
 
 .landing-page-header {
-  margin-top: 15%;
+  margin-top: 7%;
   z-index: 0;
 }
 
@@ -198,4 +199,36 @@ div.headshot {
   color: white;
 }
 
+.header {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.form input{
+  padding: 2%;
+}
+
+/* resume page styling */
+.resume-page {
+  margin: 10%;
+}
+
 /* media query for portfolio text */
+@media screen and (max-width: 992px) {
+  .horizontal-center-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}

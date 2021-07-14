@@ -26,7 +26,7 @@ const handleFormSubmit = (e) => {
 
 return (
     <div>
-    <p>Leave your contact information:</p>   
+    <p className="header">Leave your contact information:</p>   
       <form className="form" action="mailto:jacob.studer.dev@gmail.com" method="POST" enctype="multipart/form-data">
         <input
           value={firstName}
@@ -55,6 +55,7 @@ return (
           onChange={handleInputChange}
           type="text"
           placeholder="Message"
+          size="100"
         />
 
         <input 

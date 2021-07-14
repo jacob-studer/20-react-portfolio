@@ -20,6 +20,7 @@ export default function Contact() {
                 <p>Phone: 720-256-6305</p>
                 <p>Email: <Link to="mailto:jacob.studer.dev@gmail.com">jacob.studer.dev@gmail.com</Link></p>
                 <p>LinkedIn: <Link to="https://www.linkedin.com/in/jacob-studer8/">https://www.linkedin.com/in/jacob-studer8/</Link></p>
+                <p>or...</p>
             </div>
         </section>
 

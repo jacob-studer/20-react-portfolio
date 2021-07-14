@@ -21,7 +21,7 @@ export default function Home() {
             <div className="links">
               <Link to='/aboutme' className="btn">About me</Link>
               <Link to='/portfolio' className="link-margin-small btn">Portfolio</Link>
-              <Link to='/contact' className="link-margin-small btn">Contact Me</Link>
+              <Link to='/contact' className="link-margin-small btn">Contact</Link>
               <Link to='/resume' className="btn">Resume</Link>
             </div>
         </div>
