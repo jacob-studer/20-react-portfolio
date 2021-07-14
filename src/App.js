@@ -17,11 +17,11 @@ function App() {
       
 
       <Switch>
-          <Route exact path='/' component={Home} />
-          <Route path='/aboutme' component={AboutMe} />  
-          <Route path='/portfolio' component={Portfolio} />  
-          <Route path='/contact' component={Contact} />  
-          <Route path='/resume' component={Resume} />
+          <Route exact path='/20-react-portfolio/' component={Home} />
+          <Route path='/20-react-portfolio/aboutme' component={AboutMe} />  
+          <Route path='/20-react-portfolio/portfolio' component={Portfolio} />  
+          <Route path='/20-react-portfolio/contact' component={Contact} />  
+          <Route path='/20-react-portfolio/resume' component={Resume} />
       </Switch>
 
   </Router>
